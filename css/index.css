@@ -1,0 +1,30 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Kanit', sans-serif;
+}
+
+body {
+    background: linear-gradient( rgba(0, 0, 0, 0.78), rgba(0, 0, 0, 0.5) ),
+    url("../img/main-background.jpg") no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
+
+.home {
+    height:100%;
+    color: white;
+    opacity: 0.9;
+    text-align: center;
+}
+
+.home .row {
+    height: 100%;
+}
+
+.home h1 {
+    font-size: 55px;
+}
