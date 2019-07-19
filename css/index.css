@@ -14,6 +14,12 @@ body {
    background-size: cover;
 }
 
+#navbar {
+    transition: top 0.5s;
+}
+
+
+
 .home {
     height:100%;
     color: white;
@@ -28,3 +34,103 @@ body {
 .home h1 {
     font-size: 55px;
 }
+
+.about {
+    height: 450px;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+.about .row {
+    height: 100%;
+}
+
+.about .title-part {
+    margin-top: 50px;
+    padding: 50px;
+}
+
+.about .title-part h2 {
+    font-size: 34px;
+    text-align: center;
+}
+
+.about .title-part p {
+    font-size: 24px;
+    text-align: left;
+}
+
+.image-preview {
+    height: 100%;
+}
+
+.image-preview img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+
+.achievements-table {
+    height: 150px;
+    color: white;
+}
+
+.achievements-table .row {
+    height: 100%;
+    width: 85%
+}
+
+.achievements-table img {
+    width: 64px;
+    height: 64px;
+}
+
+.team {
+    background-color: white;
+    height: 500px;
+}
+
+.team .title {
+    margin-top: 25px;
+}
+
+.team h2 {
+
+    font-size: 34px;
+    text-align: center;
+}
+
+.team .title {
+    width: 100%;
+    height: 50px;
+    padding-top: 15px;
+
+}
+.team .cards {
+    padding: 20px;
+}
+
+.team .card {
+    height: 200px;
+}
+
+.team .card img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.footer {
+    height: 150px;
+    background-color: #333333;
+}
+
+.footer .logo {
+    margin-top: 25px;
+}
+
+.footer img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
